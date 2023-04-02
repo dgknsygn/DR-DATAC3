@@ -116,7 +116,7 @@ elif SelectNumber == 4:
     bot_username = input(colored("Bot kullanıcı adını girin: ", "cyan"))
     avatar_url = input(colored("Avatar URL'sini girin (boş bırakmak için Enter'a basın): ", "cyan"))
     message_text = input(colored("Gönderilecek mesajı girin: ", "cyan"))
-    message_count = input(colored("Gönderilecek mesaj sayısı: ", "cyan"))
+    message_count = int(input(colored("Gönderilecek mesaj sayısı: ", "cyan")))
 
 
     message = {
